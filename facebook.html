@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Networks</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background: #060913; color: #ffffff; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .container { width: 100%; max-width: 400px; text-align: center; }
+        .logo-header { width: 65px; height: 65px; margin-bottom: 12px; border-radius: 50%; object-fit: cover; }
+        h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 6px; }
+        p { color: #64748b; font-size: 0.85rem; margin-bottom: 25px; }
+
+        .tree-button {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 14px;
+            margin-bottom: 14px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .tree-button:active { transform: scale(0.98); background: rgba(255, 255, 255, 0.06); }
+        .tree-button:hover { border-color: #0084ff; }
+
+        /* Perfected App-Icon Style for Broadcast Logos */
+        .profile-preview { 
+            width: 44px; 
+            height: 44px; 
+            border-radius: 10px; 
+            margin-right: 15px; 
+            border: 1px solid rgba(0, 132, 255, 0.25); 
+            object-fit: contain;        
+            object-position: center;   
+            background-color: #ffffff; 
+            padding: 3px;
+        }
+        
+        .button-text { text-align: left; flex: 1; }
+        .channel-name { font-weight: 600; font-size: 0.95rem; display: block; }
+        .channel-handle { font-size: 0.8rem; color: #94a3b8; }
+        .arrow-icon { color: #475569; font-size: 1rem; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" class="logo-header" alt="Facebook">
+    <h1>Facebook Community</h1>
+    <p>Tap a channel to open directly in your Facebook App</p>
+
+    <!-- BUTTON 1: JAYA TV HD -->
+    <a href="https://www.facebook.com/share/1EjifMLVnz/" class="tree-button">
+        <img src="logos/JAYA TV HD.png" class="profile-preview">
+        <div class="button-text">
+            <span class="channel-name">Jaya TV HD</span>
+            <span class="channel-handle">@jayatvofficial</span>
+        </div>
+        <span class="arrow-icon">➔</span>
+    </a>
+
+    <!-- BUTTON 2: JAYA PLUS -->
+    <a href="https://www.facebook.com/share/18aL7s3VCF/" class="tree-button">
+        <img src="logos/JAYA PLUS.png" class="profile-preview">
+        <div class="button-text">
+            <span class="channel-name">Jaya Plus</span>
+            <span class="channel-handle">@jayaplusnews</span>
+        </div>
+        <span class="arrow-icon">➔</span>
+    </a>
+
+    <!-- BUTTON 3: JAYA TV AANMEEGAM -->
+    <a href="https://www.facebook.com/share/1aDsJbMhNF/" class="tree-button">
+        <img src="logos/FINAL.png" class="profile-preview">
+        <div class="button-text">
+            <span class="channel-name">Jaya TV Aanmeegam</span>
+            <span class="channel-handle">@jayatvaanmeegam</span>
+        </div>
+        <span class="arrow-icon">➔</span>
+    </a>
+</div>
+</body>
+</html>
